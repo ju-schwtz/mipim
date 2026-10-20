@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/ic_home"
+        android:title="Início" />
+    <item
+        android:id="@+id/nav_biblioteca"
+        android:icon="@drawable/ic_library"
+        android:title="Biblioteca" />
+    <item
+        android:id="@+id/nav_faltantes"
+        android:icon="@drawable/ic_list"
+        android:title="Faltantes" />
+    <item
+        android:id="@+id/nav_desejos"
+        android:icon="@drawable/ic_heart"
+        android:title="Desejos" />
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_person"
+        android:title="Perfil" />
+</menu>

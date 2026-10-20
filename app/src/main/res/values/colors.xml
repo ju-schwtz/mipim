@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Paleta da imagem de referência -->
+    <color name="crimson_violet">#57193A</color>
+    <color name="vintage_berry">#883563</color>
+    <color name="fuchsia_plum">#B8518C</color>
+    <color name="petal_pink">#BF82AB</color>
+    <color name="lilac">#C295B1</color>
+    <color name="midnight_violet">#36172A</color>
+    <color name="mauve_shadow">#614250</color>
+    <color name="dusty_mauve">#8B6D76</color>
+
+    <!-- Neutros derivados da paleta (tons bem claros do Lilac) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="stroke">#EADCE4</color>         <!-- borda fina de cards e divisores -->
+    <color name="stroke_strong">#D8C2CE</color>  <!-- borda de campos de texto -->
+    <color name="tint_lilac">#F7EEF3</color>     <!-- fundos suaves -->
+    <color name="tint_lilac_strong">#EBD9E4</color>
+
+    <!-- Erro de validação (mantido em vermelho por acessibilidade) -->
+    <color name="error">#A4262C</color>
+
+</resources>

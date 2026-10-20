@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MIPIM" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/crimson_violet</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/tint_lilac_strong</item>
+        <item name="colorOnPrimaryContainer">@color/crimson_violet</item>
+
+        <item name="colorSecondary">@color/fuchsia_plum</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/tint_lilac</item>
+        <item name="colorOnSecondaryContainer">@color/midnight_violet</item>
+
+        <item name="colorTertiary">@color/vintage_berry</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/midnight_violet</item>
+        <item name="colorSurfaceVariant">@color/tint_lilac</item>
+        <item name="colorOnSurfaceVariant">@color/mauve_shadow</item>
+        <item name="colorSurfaceContainerLowest">@color/white</item>
+        <item name="colorSurfaceContainerLow">@color/white</item>
+        <item name="colorSurfaceContainer">@color/white</item>
+        <item name="colorSurfaceContainerHigh">@color/white</item>
+        <item name="colorSurfaceContainerHighest">@color/tint_lilac</item>
+
+        <item name="colorOutline">@color/dusty_mauve</item>
+        <item name="colorOutlineVariant">@color/stroke</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.MIPIM" parent="Base.Theme.MIPIM" />
+
+</resources>

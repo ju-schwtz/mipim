@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================= Formas ================= -->
+    <style name="ShapeAppearance.Mipim.Pill" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- ================= Texto ================= -->
+    <style name="Mipim.Text">
+        <item name="android:textColor">@color/midnight_violet</item>
+    </style>
+
+    <!-- Título de tela -->
+    <style name="Mipim.Text.Title" parent="Mipim.Text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Título de seção / de item -->
+    <style name="Mipim.Text.Section" parent="Mipim.Text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Texto de apoio -->
+    <style name="Mipim.Text.Body" parent="Mipim.Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/mauve_shadow</item>
+    </style>
+
+    <!-- Legenda em fonte monoespaçada e caixa alta (como nos protótipos) -->
+    <style name="Mipim.Text.Caption" parent="Mipim.Text">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textColor">@color/dusty_mauve</item>
+    </style>
+
+    <!-- Número grande dos resumos -->
+    <style name="Mipim.Text.Stat" parent="Mipim.Text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ================= Cards ================= -->
+    <style name="Widget.Mipim.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeColor">@color/stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!-- ================= Botões ================= -->
+    <!-- Principal: pílula preenchida com Crimson Violet -->
+    <style name="Widget.Mipim.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">26dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="backgroundTint">@color/crimson_violet</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Secundário: contorno fino -->
+    <style name="Widget.Mipim.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">26dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="strokeColor">@color/stroke_strong</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/midnight_violet</item>
+    </style>
+
+    <!-- Pequeno, para dentro de listas -->
+    <style name="Widget.Mipim.Button.Small" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">18dp</item>
+        <item name="strokeColor">@color/stroke_strong</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/midnight_violet</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+    </style>
+
+    <!-- ================= Campos de texto ================= -->
+    <style name="Widget.Mipim.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/vintage_berry</item>
+        <item name="android:textColorHint">@color/dusty_mauve</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Campo de busca (mais baixo) -->
+    <style name="Widget.Mipim.TextInput.Search" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/vintage_berry</item>
+        <item name="android:textColorHint">@color/dusty_mauve</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+    </style>
+
+    <!-- ================= Chips de filtro ================= -->
+    <style name="Widget.Mipim.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="android:checkable">true</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="chipStrokeColor">@color/chip_stroke</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Mipim.Pill</item>
+    </style>
+
+    <!-- ================= Barra de progresso ================= -->
+    <style name="Widget.Mipim.Progress" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="indicatorColor">@color/fuchsia_plum</item>
+        <item name="trackColor">@color/tint_lilac_strong</item>
+        <item name="trackThickness">6dp</item>
+        <item name="trackCornerRadius">3dp</item>
+    </style>
+
+    <!-- ================= Barra de navegação inferior ================= -->
+    <style name="Widget.Mipim.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemIconTint">@color/nav_item</item>
+        <item name="itemTextColor">@color/nav_item</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Mipim.ActiveIndicator</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">0dp</item>
+        <item name="android:minHeight">72dp</item>
+    </style>
+
+    <style name="Widget.Mipim.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/tint_lilac_strong</item>
+    </style>
+
+</resources>
